@@ -1,0 +1,93 @@
+.weather{
+    place-self: center;
+    padding: 40px;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, #317873, 	#317873);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.search-bar input{
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 25px;
+    color: #626262;
+    background: #ebfffc;
+    font-size: 18px;
+}
+.search-bar img{
+    width: 50px;
+    padding: 15px;
+    border-radius: 50%;
+    background: #ebfffc;
+    cursor: pointer;
+}
+.weather-icon{
+    width: 150px;
+    margin: 30px 0;
+}
+.temperature{
+    color: 	#dde6d5;
+    font-size: 80px;
+    line-height: 1;
+}
+.location{
+    color: #dde6d5;
+    font-size: 40px;
+}
+.weather-data{
+    width: 100%;
+    margin-top: 40px;
+    color: #dde6d5;
+    display: flex;
+    justify-content: space-between;
+}
+.weather-data .col{
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 20px;
+}
+.weather-data .col span{
+    display: block;
+    font-size: 16px;
+}
+.weather-data .col img{
+    width: 26px;
+    margin-top: 10px;
+}
+.weather-data {
+    display: flex; /* 水平排列每列 */
+    justify-content: center; /* 水平居中整个内容 */
+    align-items: center; /* 垂直居中对齐 */
+    gap: 16px; /* 列之间的水平间距 */
+    padding: 12px; /* 增加内边距 */
+  }
+  
+  .weather-data .col {
+    display: flex; /* 图标和文字为一列 */
+    flex-direction: column; /* 垂直排列 */
+    align-items: center; /* 每列内容水平居中 */
+    text-align: center; /* 文字居中对齐 */
+    gap: 8px; /* 图标与文字之间的垂直间距 */
+  }
+  
+  .weather-data .col p {
+    font-size: 18px; /* 数据字体大小 */
+    margin: 0; /* 去掉默认外边距 */
+    line-height: 1.5; /* 设置行间距 */
+  }
+  
+  .weather-data .col span {
+    font-size: 14px; /* 描述文字的字体大小 */
+    color: #dde6d5; /* 描述文字颜色 */
+    margin-top: -4px; /* 适当调整文字与数据的间距 */
+  }
+  
